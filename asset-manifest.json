@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/studyship/teamprofile/static/js/main.fa9deab0.chunk.js",
+    "main.js.map": "/studyship/teamprofile/static/js/main.fa9deab0.chunk.js.map",
+    "runtime-main.js": "/studyship/teamprofile/static/js/runtime-main.cc7762d0.js",
+    "runtime-main.js.map": "/studyship/teamprofile/static/js/runtime-main.cc7762d0.js.map",
+    "static/js/2.eb408cc8.chunk.js": "/studyship/teamprofile/static/js/2.eb408cc8.chunk.js",
+    "static/js/2.eb408cc8.chunk.js.map": "/studyship/teamprofile/static/js/2.eb408cc8.chunk.js.map",
+    "index.html": "/studyship/teamprofile/index.html",
+    "precache-manifest.a542eb68e72e230ca25475bb1e610c73.js": "/studyship/teamprofile/precache-manifest.a542eb68e72e230ca25475bb1e610c73.js",
+    "service-worker.js": "/studyship/teamprofile/service-worker.js",
+    "static/js/2.eb408cc8.chunk.js.LICENSE.txt": "/studyship/teamprofile/static/js/2.eb408cc8.chunk.js.LICENSE.txt",
+    "static/media/gw.jpeg": "/studyship/teamprofile/static/media/gw.c4153cf3.jpeg",
+    "static/media/hg.jpeg": "/studyship/teamprofile/static/media/hg.9c5c497b.jpeg",
+    "static/media/hr.jpeg": "/studyship/teamprofile/static/media/hr.8f7ebfb5.jpeg",
+    "static/media/sm.jpeg": "/studyship/teamprofile/static/media/sm.8f697f6c.jpeg",
+    "static/media/ts.jpeg": "/studyship/teamprofile/static/media/ts.12f0627e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc7762d0.js",
+    "static/js/2.eb408cc8.chunk.js",
+    "static/js/main.fa9deab0.chunk.js"
+  ]
+}
