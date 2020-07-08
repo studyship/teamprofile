@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import styled from "styled-components";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { FaGithub } from "react-icons/fa";
-import HRProfile from "./images/hr.jpeg";
-import SMProfile from "./images/sm.jpeg";
-import GWProfile from "./images/gw.jpeg";
-import HGProfile from "./images/hg.jpeg";
-import TSProfile from "./images/ts.jpeg";
-import ScrollDownIndicator from "./ScrollDownIndicator";
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
+import { FaGithub } from 'react-icons/fa';
+import HRProfile from './images/hr.jpeg';
+import SMProfile from './images/sm.jpeg';
+import GWProfile from './images/gw.jpeg';
+import HGProfile from './images/hg.jpeg';
+import TSProfile from './images/ts.jpeg';
+import ScrollDownIndicator from './ScrollDownIndicator';
 
 const Container = styled.div`
   background-color: #262626;
@@ -67,7 +67,7 @@ const Column = styled.div`
   float: left;
   overflow: hidden;
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -156,43 +156,43 @@ const IconBox = styled.li`
 const App = () => {
   useEffect(() => {
     document.body.style.margin = 0;
-    document.body.style.backgroundColor = "#262626";
+    document.body.style.backgroundColor = '#262626';
   }, []);
 
   const values = [
     {
       isSelected: true,
-      comment: "엘론 머스크를 꿈꾸는 디자이너입니다1.",
-      title: "Kim su min",
-      job: "Designer",
+      comment: '엘론 머스크를 꿈꾸는 디자이너입니다1.',
+      title: 'Kim su min',
+      job: 'Designer',
       thumbnail: HRProfile,
     },
     {
       isSelected: false,
-      comment: "엘론 머스크를 꿈꾸는 디자이너입니다2.",
-      title: "Kim su min",
-      job: "Designer",
+      comment: '엘론 머스크를 꿈꾸는 디자이너입니다2.',
+      title: 'Kim su min',
+      job: 'Designer',
       thumbnail: SMProfile,
     },
     {
       isSelected: false,
-      comment: "엘론 머스크를 꿈꾸는 디자이너입니다3.",
-      title: "Kim su min",
-      job: "Designer",
+      comment: '엘론 머스크를 꿈꾸는 디자이너입니다3.',
+      title: 'Kim su min',
+      job: 'Designer',
       thumbnail: GWProfile,
     },
     {
       isSelected: false,
-      comment: "엘론 머스크를 꿈꾸는 디자이너입니다4.",
-      title: "Kim su min",
-      job: "Designer",
+      comment: '엘론 머스크를 꿈꾸는 디자이너입니다4.',
+      title: 'Kim su min',
+      job: 'Designer',
       thumbnail: HGProfile,
     },
     {
       isSelected: false,
-      comment: "엘론 머스크를 꿈꾸는 디자이너입니다5.",
-      title: "Kim su min",
-      job: "Designer",
+      comment: '엘론 머스크를 꿈꾸는 디자이너입니다5.',
+      title: 'Kim su min',
+      job: 'Designer',
       thumbnail: TSProfile,
     },
   ];
@@ -221,7 +221,7 @@ const App = () => {
             </Row>
             {profileValues.map((value, index) => (
               <Row
-                marginTop="50px"
+                marginTop='50px'
                 onClick={() => {
                   handleClick(index);
                 }}
@@ -257,9 +257,9 @@ const App = () => {
         </>
         <Next>
           <Link
-            activeClass="active"
-            className="test1"
-            to="test2"
+            activeClass='active'
+            className='test1'
+            to='test2'
             spy={true}
             smooth={true}
             duration={500}
@@ -270,9 +270,9 @@ const App = () => {
       </Team>
       <Team>
         <Link
-          activeClass="active"
-          className="test2"
-          to="test3"
+          activeClass='active'
+          className='test2'
+          to='test3'
           spy={true}
           smooth={true}
           duration={500}
